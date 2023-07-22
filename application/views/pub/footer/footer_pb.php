@@ -18,10 +18,10 @@
       <div class="sec quicklinks">
         <h2>Quick Links</h2>
         <ul>
-          <li><a href="#">Tentang Kami</a></li>
-          <li><a href="#">SPMI</a></li>
-          <li><a href="#">RENBANG</a></li>
-          <li><a href="#">Informasi Pelatihan</a></li>
+          <li><a href="<?= base_url('about_pb')?>">Tentang Kami</a></li>
+          <li><a href="<?= base_url('spmi_pb')?>">SPMI</a></li>
+          <li><a href="<?= base_url('renbang_pb')?>">Renbang</a></li>
+          <li><a href="<?= base_url('pelatihan_pb')?>">Informasi Pelatihan</a></li>
         </ul>
       </div>
       <div class="sec contact">

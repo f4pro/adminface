@@ -20,26 +20,26 @@
     <div class="navigation">
       <ul class="menu">
         <div class="close-btn"></div>
-        <li class="menu-item"><a href="<?= base_url('about-pb')?>">Tentang Kami</a></li>
-        <li class="menu-item"><a href="spmi.html">SPMI</a></li>
+        <li class="menu-item"><a href="<?= base_url('about_pb')?>">Tentang Kami</a></li>
+        <li class="menu-item"><a href="<?= base_url('spmi_pb')?>">SPMI</a></li>
         <li class="menu-item">
           <a class="sub-btn" href="#">SPME <i class="uil uil-angle-down"></i></a>
           <ul class="sub-menu">
-            <li class="sub-item"><a href="akreditasi.html">Akreditasi</a></li>
-            <li class="sub-item"><a href="sertifikasi.html">Sertifikasi</a></li>
-            <li class="sub-item"><a href="renbang.html">RENBANG</a></li>
+            <li class="sub-item"><a href="<?= base_url('akreditasi_pb')?>">Akreditasi</a></li>
+            <li class="sub-item"><a href="<?= base_url('sertifikasi_pb')?>">Sertifikasi</a></li>
+            <li class="sub-item"><a href="<?= base_url('renbang_pb')?>">RENBANG</a></li>
           </ul>
         </li>
         <li class="menu-item">
           <a class="sub-btn" href="#">Layanan Umum<i class="uil uil-angle-down"></i></a>
           <ul class="sub-menu">
-            <li class="sub-item"><a href="pelatihan.html">Informasi Pelatihan</a></li>
+            <li class="sub-item"><a href="<?= base_url('pelatihan_pb')?>">Informasi Pelatihan</a></li>
             <li class="sub-item"><a href="https://survei.pcr.ac.id/" target="_blank" rel="noopener noreferrer">Survei <i class="uil uil-external-link-alt"></i></a></li>
             <li class="sub-item"><a href="https://siap.pcr.ac.id/" target="_blank" rel="noopener noreferrer">SIAP <i class="uil uil-external-link-alt"></i></a></li>
           </ul>
         </li>
-        <li class="menu-item"><a href="berita.html">Berita</a></li>
-        <li class="menu-item"><a href="galeri.html">Galeri</a></li>
+        <li class="menu-item"><a href="<?= base_url('berita_pb')?>">Berita</a></li>
+        <li class="menu-item"><a href="<?= base_url('galeri_pb')?>">Galeri</a></li>
       </ul>
     </div>
     <div class="menu-btn"></div>

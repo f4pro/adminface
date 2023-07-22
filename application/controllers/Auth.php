@@ -19,7 +19,7 @@ class Auth extends CI_Controller
 
         if ($this->form_validation->run() == false) {
             $data['title'] = 'Login Page';
-            $this->load->view('templates/auth_header', $data);
+            $this->load->view('pub/header/header_pb');
             $this->load->view('auth/login');
             $this->load->view('templates/auth_footer');
         } else {
@@ -103,7 +103,7 @@ class Auth extends CI_Controller
         ]);
         if ($this->form_validation->run() == false) {
             $data['title'] = 'Registration';
-            $this->load->view('templates/auth_header', $data);
+            $this->load->view('pub/header/header_pb');
             $this->load->view('auth/registration');
             $this->load->view('templates/auth_footer');
         } else {

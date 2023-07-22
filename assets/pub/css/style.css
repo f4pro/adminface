@@ -492,7 +492,7 @@ nav.sticky .menu-item .sub-menu{
 .header-about{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/About.JPG);
+  background: url(../images/photos/About.JPG);
   background-position-y: 130%;
   background-size: cover;
   background-attachment: fixed;
@@ -533,7 +533,7 @@ nav.sticky .menu-item .sub-menu{
 .part3-about{
   position: relative;
   justify-content: left;
-  background: url(/images/photos/pic5w.JPG);
+  background: url(../images/photos/pic5w.JPG);
   background-position-y: 59%;
   background-size: cover;
 }
@@ -676,7 +676,7 @@ nav.sticky .menu-item .sub-menu{
 .header-spmi{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/pic3.JPG);
+  background: url(../images/photos/pic3.JPG);
   background-position-y: 130%;
   background-size: cover;
   background-attachment: fixed;
@@ -958,7 +958,7 @@ nav.sticky .menu-item .sub-menu{
 .header-ak{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/pic21.jpg);
+  background: url(../images/photos/pic21.jpg);
   /* background-position-x: 100%; */
   background-position-y: 65%;
   /* background-position: center; */
@@ -1050,7 +1050,7 @@ nav.sticky .menu-item .sub-menu{
 .header-sertifikasi{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/sertifikasi.JPG);
+  background: url(../images/photos/sertifikasi.JPG);
   background-position-y: 130%;
   background-position-x: 20%;
   background-size: cover;
@@ -1101,7 +1101,7 @@ nav.sticky .menu-item .sub-menu{
 .header-renbang{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/renbang.jpg);
+  background: url(../images/photos/renbang.jpg);
   background-position-y: 170%;
   background-size: cover;
   background-attachment: fixed;
@@ -1177,7 +1177,7 @@ nav.sticky .menu-item .sub-menu{
 .header-pelatihan{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/pic6.jpg);
+  background: url(../images/photos/pic6.jpg);
   background-position-y: 60%;
   background-position-x: 20%;
   background-size: cover;
@@ -1322,7 +1322,7 @@ nav.sticky .menu-item .sub-menu{
 .header-berita{
   height: 45vh;
   position: relative;
-  background: url(/images/photos/pic6.jpg);
+  background: url(../images/photos/pic6.jpg);
   background-position-y: 60%;
   background-position-x: 20%;
   background-size: cover;
