@@ -16,7 +16,7 @@
 <body>
 
   <nav>
-    <a href="index.html" class="logo"><img src="<?= base_url('assets/pub/')?>/images/logo/logo1.png" alt="logo1"></a>
+    <a href="<?= base_url('home')?>" class="logo"><img src="<?= base_url('assets/pub/')?>/images/logo/logo1.png" alt="logo1"></a>
     <div class="navigation">
       <ul class="menu">
         <div class="close-btn"></div>
