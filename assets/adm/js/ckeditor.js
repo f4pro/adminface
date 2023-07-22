@@ -22296,7 +22296,7 @@ function (t, e) {
 			width: o,
 			extension: i
 		}) {
-			return new URL(`${t}/assets/adm${e}/images/${o}.${i}`, n).toString()
+			return new URL(`${t}/assets/adm/${e}/images/${o}.${i}`, n).toString()
 		}
 		class $b extends Yr {
 			constructor(t) {
@@ -22452,7 +22452,7 @@ function (t, e) {
 
 		function Jb(t, e, n) {
 			const o = Kb(e),
-				i = new URL(`${o}/assets/adm${t.data.id}/file`, n);
+				i = new URL(`${o}/assets/adm/${t.data.id}/file`, n);
 			return i.searchParams.set("download", "true"), i.toString()
 		}
 		var Xb = (t, e, n) => new Promise(((o, i) => {

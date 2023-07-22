@@ -12,10 +12,10 @@
     <title>Access Denied</title>
 
     <!-- Custom fonts for this template-->
-    <link href="<?= base_url('assets/adm'); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url('assets/adm/'); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="<?= base_url('assets/adm'); ?>css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets/adm/'); ?>css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -64,14 +64,14 @@
     <!-- End of Page Wrapper -->
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?= base_url('assets/adm'); ?>vendor/jquery/jquery.min.js"></script>
-    <script src="<?= base_url('assets/adm'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('assets/adm/'); ?>vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url('assets/adm/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?= base_url('assets/adm'); ?>vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?= base_url('assets/adm/'); ?>vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="<?= base_url('assets/adm'); ?>js/sb-admin-2.min.js"></script>
+    <script src="<?= base_url('assets/adm/'); ?>js/sb-admin-2.min.js"></script>
 
 </body>
 
