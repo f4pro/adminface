@@ -4,7 +4,7 @@
     <h2 class="h3 mb-4 text-gray-800"><?= $title; ?></h2>
     <div class="row">
         <div class="col-lg-6">
-            <form action="<?= base_url('content/uploadberita'); ?>" method="post">
+            <form action="<?= base_url('content/updateberita'); ?>" method="post">
                 <input type="hidden" name="id_berita" value="<?= $berita['id_berita']; ?>">
                 <div class="modal-body">
                     <div class="form-group">

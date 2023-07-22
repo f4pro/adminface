@@ -51,6 +51,19 @@ class Content extends CI_Controller
         redirect('content/berita');
     }
 
+    public function updateberita()
+    {
+        $data = [
+            'kategori' => $this->input->post('kategori'),
+            'judul' => $this->input->post('judul'),
+            'isi_berita' => $this->input->post('isi_berita'),
+            'author' => 'Admin',
+        ];
+        $id = $this->input->post('id_berita');
+        $this->berita->update(['id_berita' => $id], $data);
+        redirect('content/berita');
+    }
+
     public function editberita($id)
     {
         $data['title'] = 'Edit Berita';
@@ -98,7 +111,7 @@ class Content extends CI_Controller
     public function edit_kategori()
     {
         $data['kategori'] = $this->kategori->get();
-        $data['user'] = $this->db->get_where('user', ['email' =>$this->session->userdata('email')])->row_array();
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
         $this->form_validation->set_rules('kategori', 'Kategori', 'trim|required');
 
@@ -117,7 +130,7 @@ class Content extends CI_Controller
             redirect('content/kategori');
         }
     }
-    
+
     public function hapusKategori($id)
     {
         $this->kategori->delete($id);

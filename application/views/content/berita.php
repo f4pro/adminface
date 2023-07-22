@@ -29,7 +29,11 @@
                         <tr>
                             <th scope="row"><?= $no++ ?></th>
                             <td><?= $b['judul']; ?></td>
-                            <td><?= $b['kategori']; ?></td>
+                            <?php foreach ($kategori as $k) :
+                                if ($k['id'] == $b['kategori']) { ?>
+                                    <td><?= $k['kategori']; ?></td>
+                            <?php }
+                            endforeach; ?>
                             <td><?= $b['date_posted']; ?></td>
                             <td><?= $b['author']; ?></td>
                             <td>
