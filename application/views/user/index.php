@@ -10,7 +10,7 @@
     <div class="card shadow col-lg-4 mb-4">
         <div class="card-block">
             <center class="mt-4">
-                <img src="<?= base_url('assets/img/profile/') . $user['image']; ?>" class="rounded-circle" width="150" />
+                <img src="<?= base_url('assets/adm/img/profile/') . $user['image']; ?>" class="rounded-circle" width="150" />
                 <h4 class="card-title text-dark"><?= $user['name']; ?></h4>
             </center>
         </div>
